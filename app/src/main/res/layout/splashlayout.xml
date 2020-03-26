@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="@drawable/background"
+    android:layout_height="fill_parent">
+
+
+
+    <AbsoluteLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        >
+
+        <ImageView
+            android:id="@+id/splashscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_x="107dp"
+            android:layout_y="46dp"
+            app:srcCompat="@drawable/logo"></ImageView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="298dp"
+            android:layout_x="2dp"
+            android:layout_y="341dp"
+            android:gravity="center"
+            android:text=" Help , Donate , Save"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+    </AbsoluteLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">D_Inficta</string>
+    <string name="gender">Select Gender</string>
+    <string name="birthDate">Date of Birth</string>
+    <string name="Register">Sign Up Now</string>
+    <string name="Register_note">Fill in the form below to create an account</string>
+    <string name="login">User Login</string>
+    <string name="login_note">Enter Username and Password to log on</string>
+    <string name="forget_password">Forgot your password ?</string>
+    <string name="donate_mosque"> Help  to build a mosque.</string>
+    <string name="donate_school">Help for buliding a school </string>
+    <string name="donate_disaster">Help the people of disaster affected areas.</string>
+    <string name="donate_food">Donate  to make food for the distressed</string>
+    <string name="donate_aid">Donate money and help distressed to get proper health treatment</string>
+    <string name="amount">Enter the amount  of money (TK)  you want to donate </string>
+    <string name="donation">Press the  +  button to make your donation </string>
+    <string name="congrats">Good Work</string>
+    <string name="msg">The total amount of donation made by you is</string>
+    <string name="org1">akata71</string>
+    <string name="org1_contact">+8801553362334</string>
+    <string name="org1_location">Dhaka</string>
+    <string name="org2">HXT_Agency</string>
+    <string name="org2_contact">+8801190829162</string>
+    <string name="org2_location">Dhaka</string>
+    <string name="org3">PFB Foundation</string>
+    <string name="org3_contact">+8801716954085</string>
+    <string name="org3_location">Dhaka</string>
+    <string name="org4">The People`s Right</string>
+    <string name="org4_contact">+8801815400386</string>
+    <string name="org4_location">Kushtia</string>
+    <string name="org5">Young Unity</string>
+    <string name="org5_contact">+8801728202192</string>
+    <string name="org5_location">Rajshahi</string>
+    <string name="org6">Bidyanondo_Foundation</string>
+    <string name="org6_contact">+8801878116234</string>
+    <string name="org6_location">Dhaka</string>
+    <string name="message">Here is a list of some social welfare organizations , You can contact them directly and make your donation . </string>
+    <string name="message2">Source : bdyellowbook.com , bidyanondo foundation (facebook Page).</string>
+
+
+
+
+
+    <string-array name="genders">
+        <item> _ _ _ _</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_navigation">navigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".homeActivity"
+  >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/donation"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="20dp"
+
+            />
+
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="5"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </GridLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:elevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/mosque"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/donate_mosque"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <RelativeLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="80dp">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginEnd="29dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:background="@drawable/loginbutton"
+                        android:onClick="pop"
+                        android:text="+"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:elevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/school"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="12dp"
+                     android:text="@string/donate_school"
+                    android:textColor="@color/black" />
+
+                <RelativeLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="80dp">
+
+                    <Button
+                        android:id='@+id/button2'
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="pop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="29dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:background="@drawable/loginbutton"
+                        android:text="+"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/white"
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:elevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/disaster"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/donate_disaster"
+                    android:textColor="@color/black" />
+
+                <RelativeLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="80dp">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginEnd="31dp"
+                        android:onClick="pop"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:background="@drawable/loginbutton"
+                        android:text="+"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:elevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/food"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/donate_food"
+                    android:textColor="@color/black" />
+
+                <RelativeLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="80dp">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="pop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginEnd="31dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:background="@drawable/loginbutton"
+                        android:text="+"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:elevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/aid"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+
+                    android:layout_width="180dp"
+                    android:layout_height="80dp"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/donate_aid"
+                    android:textColor="@color/black" />
+
+                <RelativeLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="80dp">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="pop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginEnd="31dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:background="@drawable/loginbutton"
+                        android:text="+"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above= " @id/bottom_navigation"
+        />
+
+
+
+
+    <!-- Main content -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-2dp"
+        android:background="#06a948"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+
+
+
+
+</RelativeLayout>
