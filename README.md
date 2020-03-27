@@ -1,5 +1,7 @@
 # D_Invicta
 A mini android applictaion for course , CSE2200 ( Software Development Lab III )
+<br />**Student ID** : 180104038
+<br />**Lab Section** : A2
 <br />
 <br />**Objective** : Getting familiar with basic layouts and functions of android development . 
 <br />**Platform** : Android Studio (Version: 3.5.0.0).
